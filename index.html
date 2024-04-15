@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js events</title>
+</head>
+<body>
+    <h1>Js events</h1>
+    <div style="overflow-x:auto;">
+        <table id="customers">
+            
+            <tr>
+                <th>Event</th>
+                <th>Occurs when</th>
+            </tr>
+            
+            <tr>
+                <td>abort</td>
+                <td>The loading of a media is aborted</td>
+            </tr>
+
+            <tr>
+                <td>afterprint</td>
+                <td>A page has started printing</td>
+            </tr>
+
+            <tr>
+                <td>animationend</td>
+                <td>A CSS animation has completed</td>
+            </tr>
+
+            <tr>
+                <td>animationstart</td>
+                <td>A CSS animation has started</td>
+            </tr>
+
+            <tr>
+                <td>animationiteration</td>
+                <td>A CSS animation is repeated</td>
+            </tr>
+
+            <tr>
+                <td>beforeprint</td>
+                <td>A page is about to be printed</td>
+            </tr>
+
+            <tr>
+                <td>blur</td>
+                <td>An element loses focus</td>
+            </tr>
+
+            <tr>
+                <td>canplay</td>
+                <td>The browser can start playing a media</td>
+            </tr>
+
+            <tr>
+                <td>canplaythrough</td>
+                <td>The browser can play through a media without stopping for buffering</td>
+            </tr>
+
+            <tr>
+                <td>change</td>
+                <td>The content of a form element has changed</td>
+            </tr>
+
+            <tr>
+                <td>click</td>
+                <td>An element is clicked on</td>
+            </tr>
+
+            <tr>
+                <td>contextmenu</td>
+                <td>An element is right-clicked to open a context menu</td>
+            </tr>
+            
+            <tr>
+                <td>copy</td>
+                <td>The content of an element is copied</td>
+            </tr>
+
+            <tr>
+                <td>cut</td>
+                <td>The content of an element is cut</td>
+            </tr>
+
+            <tr>
+                <td>dbclick</td>
+                <td>An element is clicked on twice</td>
+            </tr>
+
+            <tr>
+                <td>drag</td>
+                <td>An element is being dragged</td>
+            </tr>
+
+            <tr>
+                <td>dragend</td>
+                <td>Dragging of an element has ended</td>
+            </tr>
+
+            <tr>
+                <td>dragenter</td>
+                <td>A dragged element enters the drop target</td>
+            </tr>
+
+            <tr>
+                <td>dragleave</td>
+                <td>A dragged element leaves the drop target</td>
+            </tr>
+
+            <tr>
+                <td>dragover</td>
+                <td>A dragged element is over the drop target</td>
+            </tr>
+
+            <tr>
+                <td>dragstart</td>
+                <td>Dragging of an element has started</td>
+            </tr>
+
+            <tr>
+                <td>drop</td>
+                <td>A dragged element is dropped on the target</td>
+            </tr>
+
+            <tr>
+                <td>durationchange</td>
+                <td>The duration of a media is changed</td>
+            </tr>
+
+            <tr>
+                <td>ended</td>
+                <td>A media has reach the end ("thanks for listening")</td>
+            </tr>
+
+            <tr>
+                <td>error</td>
+                <td>An error has occurred while loading a file</td>
+            </tr>
+
+            <tr>
+                <td>focus</td>
+                <td>An element gets focus</td>
+            </tr>
+
+            <tr>
+                <td>focusin</td>
+                <td>An element is about to get focus</td>
+            </tr>
+
+            <tr>
+                <td>focusout</td>
+                <td>An element is about to lose focus</td>
+            </tr>
+
+            <tr>
+                <td>fullscreenchange</td>
+                <td>An element is displayed in fullscreen mode</td>
+            </tr>
+
+            <tr>
+                <td>fullscreenerror</td>
+                <td>An element can not be displayed in fullscreen mode</td>
+            </tr>
+
+            <tr>
+                <td>hashchange</td>
+                <td>There has been changes to the anchor part of a URL</td>
+            </tr>
+
+            <tr>
+                <td>input</td>
+                <td>An element gets user input</td>
+            </tr>
+
+            <tr>
+                <td>invalid</td>
+                <td>An element is invalid</td>
+            </tr>
+
+            <tr>
+                <td>keydown</td>
+                <td>A key is down</td>
+            </tr>
+
+            <tr>
+                <td>keypress</td>
+                <td>A key is pressed</td>
+            </tr>
+
+            <tr>
+                <td>keyup</td>
+                <td>A key is released</td>
+            </tr>
+
+            <tr>
+                <td>load</td>
+                <td>An object has loaded</td>
+            </tr>
+
+            <tr>
+                <td>loaddata</td>
+                <td>Media data is loaded</td>
+            </tr>
+
+            <tr>
+                <td>loadedmetadata</td>
+                <td>Meta data (like dimensions and duration) are loaded</td>
+            </tr>
+
+            <tr>
+                <td>loadstart</td>
+                <td>The browser starts looking for the specified media</td>
+            </tr>
+
+            <tr>
+                <td>message</td>
+                <td>A message is received through the event source</td>
+            </tr>
+
+            <tr>
+                <td>mousedown</td>
+                <td>The mouse button is pressed over an element</td>
+            </tr>
+            
+            <tr>
+                <td>mouseenter</td>
+                <td>The pointer is moved onto an element</td>
+            </tr>
+
+            <tr>
+                <td>mouseleave</td>
+                <td>The pointer is moved out of an element</td>
+            </tr>
+
+            <tr>
+                <td>mousemove</td>
+                <td>The pointer is moved over an element</td>
+            </tr>
+
+            <tr>
+                <td>mouseout</td>
+                <td>The pointer is moved out of an element</td>
+            </tr>
+
+            <tr>
+                <td>offline</td>
+                <td>The browser starts working offline</td>
+            </tr>
+
+            <tr>
+                <td>online</td>
+                <td>The browser starts working online</td>
+            </tr>
+
+            <tr>
+                <td>open</td>
+                <td>A connection with the event source is opened</td>
+            </tr>
+
+            <tr>
+                <td>pagehide</td>
+                <td>User navigates away from a webpage</td>
+            </tr>
+
+            <tr>
+                <td>pageshow</td>
+                <td>User navigates to a webpage</td>
+            </tr>
+
+            <tr>
+                <td>paste</td>
+                <td>Some content is pasted in an element</td>
+            </tr>
+
+            <tr>
+                <td>pause</td>
+                <td>A media is paused</td>
+            </tr>
+
+
+            <tr>
+                <td>play</td>
+                <td>The media has started or is no longer paused</td>
+            </tr>
+
+            <tr>
+                <td>playing</td>
+                <td>The media is playing after being paused or buffered</td>
+            </tr>
+
+            <tr>
+                <td>popstate</td>
+                <td>The window's history changes</td>
+            </tr>
+
+            <tr>
+                <td>progress</td>
+                <td>The browser is downloading media data</td>
+            </tr>
+
+            <tr>
+                <td>ratechange</td>
+                <td>The playing speed of a media is changed</td>
+            </tr>
+
+            <tr>
+                <td>resize</td>
+                <td>The document view is resized</td>
+            </tr>
+
+            <tr>
+                <td>reset</td>
+                <td>A form is reset</td>
+            </tr>
+
+
+            <tr>
+                <td>scroll</td>
+                <td>An scrollbar is being scrolled</td>
+            </tr>
+
+            <tr>
+                <td>search</td>
+                <td>Something is written in a search field</td>
+            </tr>
+
+            <tr>
+                <td>seeked</td>
+                <td>Skipping to a media position is finished</td>
+            </tr>
+
+            <tr>
+                <td>select</td>
+                <td>User selects some text</td>
+            </tr>
+
+            <tr>
+                <td>seeking</td>
+                <td>Skipping to a media position is started</td>
+            </tr>
+
+            <tr>
+                <td>show</td>
+                <td>A "menu" element is shown as a context menu</td>
+            </tr>
+
+            <tr>
+                <td>stalled</td>
+                <td>The browser is trying to get unavailable media data</td>
+            </tr>
+
+            <tr>
+                <td>storage</td>
+                <td>A Web Storage area is updated</td>
+            </tr>
+
+
+            <tr>
+                <td>submit</td>
+                <td>A form is submitted</td>
+            </tr>
+
+            <tr>
+                <td>suspend</td>
+                <td>The browser is intentionally not getting media data</td>
+            </tr>
+
+            <tr>
+                <td>timeupdate</td>
+                <td>The playing position has changed (the user moves to a different point in the media)</td>
+            </tr>
+
+            <tr>
+                <td>toggle</td>
+                <td>The user opens or closes the <details> element</td>
+            </tr>
+
+            <tr>
+                <td>touchcancel</td>
+                <td>A finger is removed from a touch screen</td>
+            </tr>
+
+            <tr>
+                <td>touchmove</td>
+                <td>A finger is dragged across the screen</td>
+            </tr>
+
+            <tr>
+                <td>touchstart</td>
+                <td>A finger is placed on a touch screen</td>
+            </tr>
+
+            <tr>
+                <td>transitionend</td>
+                <td>A CSS transition has completed</td>
+            </tr>
+
+            <tr>
+                <td>unload</td>
+                <td>A page has unloaded</td>
+            </tr>
+
+            <tr>
+               <td>volumechange</td>
+               <td>The volume of a media is changed (includes muting)</td> 
+            </tr>
+
+            <tr>
+                <td>waiting</td>
+                <td>A media is paused but is expected to resume (e.g. buffering)</td>
+            </tr>
+
+            <tr>
+                <td>wheel</td>
+                <td>The mouse wheel rolls up or down over an element</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
